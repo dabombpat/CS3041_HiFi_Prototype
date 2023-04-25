@@ -1,7 +1,7 @@
 import logo from './Homepage_Car.jpg';
 import React, { useState } from 'react';
 import './App.css';
-import {Link, redirect, Routes, Route, useNavigate} from 'react-router-dom';
+import { HashRouter as Router, Route, useNavigate, Switch } from 'react-router-dom';
 
 function App() {
 
